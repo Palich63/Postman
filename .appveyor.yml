@@ -11,4 +11,5 @@ build: off
 install:
 
 build_script:
+  - chmod +x gradlew
   - ./gradlew test --info
